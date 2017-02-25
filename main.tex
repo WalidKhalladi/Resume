@@ -1,0 +1,209 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                          % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                             % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+\setlength{\hintscolumnwidth}{5cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Walid}{Khalladi}
+\title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
+\address{5 street Lys}{1004 Tunis}{Tunisia}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+216~20559658}                   % optional, remove / comment the line if not wanted
+% \phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
+% \phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{walid.khalladi@hotmail.com}                               % optional, remove / comment the line if not wanted
+% \homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+\extrainfo{26 years old}                 % optional, remove / comment the line if not wanted
+\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+% \quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+% A more compact page: set top margin to 10mm and bottom to 15mm
+ \geometry {top=10mm, bottom=15mm}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+	%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+	%-----       resume       ---------------------------------------------------------
+	\makecvtitle
+
+	\section{Professional Experiences}
+		% \subsection{Vocational}
+		    \cventry{April--October 2016}{Mobile Software Developer}{SaveCode}{Paris}{}
+				{- Development of new modules based on the mobile application "eiver": Making a modular mobile application.
+				\newline{}
+				Technologies used: Ionic, cordova, AngularJS, Java
+				}
+			\cventry{October--December 2015}{Software Developer}{Esprit}{Tunisia}{}
+				{- Creating a project called "SmartShopping": E-commerce application, supermarket merchandise management, indoor location, management of shoppings.
+				\newline{}
+				Technologies used: Android / Web / QrCode / Bar Code / iBeacons
+				\newline{}
+					\newline{}
+				- Development of solutions for mobile games using the Artificial Intelligence.
+				\newline{}
+				Technologies used: Android / Unity3d
+				\newline{}
+					\newline{}
+				- Development of image processing mobile application.
+				\newline{}
+				Technologies used: Android / openCV
+				}
+			\cventry{June--August 2015}{Internship}{Esprit}{Tunisia}{}
+				{- Creating an online multiplayer game.
+				\newline{}
+				Technologies used: C sharp / Javascript / Unity3d
+				}
+			\cventry{July--August 2014}{Internship}{Tunisie Télécom}{Tunisia}{}
+				{- Development of a database management platform for customer complaints.
+				\newline{}
+				Technologies used:  MySQL / J2EE plateforme / java
+				}
+			\cventry{October 2014--May 2015}{Software Developer}{Esprit}{Tunisia}{}
+				{- Development of a multi-platform mobile application named "Tunivision": Online magazine.
+				\newline{}
+				Technologies used:  Android, Java/ iOS, Objective-C / Windows Phone, Windows Store, C Sharp.
+				\newline{}
+					\newline{}
+				- Development of a mobile video game named Hexagone.
+				\newline{}
+				Technologies used: Unity3d, C Sharp
+				\newline{}
+					\newline{}
+				- Implementation of an intelligent solution for babies clothes called "BabyCard": It's a connected clothing intended for babies.
+				\newline{}
+				Technologies used: Lily Pad / Arduino / .Net / Windows Phone / Android / Java
+				}
+			\cventry{January--May 2014}{Software Developer}{Esprit}{Tunisia}{}
+				{- Creation of an E-commerce service: Management of weddings.
+				\newline{}
+				Technologies used: Java Swing / Java Me / Symphony2 
+				}
+			\cventry{January--May 2013}{Software Developer}{Esprit}{Tunisia}{}
+				{- Creating a Human Resources Management Platform.
+				\newline{}
+				Technologies used: PHP5 / HTML5 / C++  	
+					\newline{}
+						\newline{}
+							\newline{}
+								\newline{}
+									\newline{}
+				}
+				
+				
+		
+		% \subsection{Miscellaneous}
+		% 	\cventry{year--year}{Job title}{Employer}{City}{}{Description}
+    
+	% \section{Master thesis}
+	% 	\cvitem{title}{\emph{Operating system independent secured image transmission}}
+	% 	\cvitem{supervisors}{Dr. Christian Vilsmier}
+	% 	\cvitem{description}{Image transmission enhancement for myIDkeeper mobile application}
+	
+	\section{Computer skills}
+		\cventry{Programing languages}{C,C++,C Sharp,Java,PHP5,Javascript}{}{}{}{}
+		\cventry{API/Frameworks}{AngularJS, LINQ TO SQL, JQuery, Symphony2, Wordpress, Hibernate, JSF, Cordova, Phone gap, Ionic}{}{}{}{}
+		\cventry{Conception}{UML}{}{}{}{}
+		\cventry{DataBase manage system}{ MYSQL,SQLite,Oracle}{}{}{}{}
+		\cventry{Operating Systems}{Windows, Linux, MacOS}{}{}{}{}
+		\cventry{Mobile development}{iOS, Windows Universal, Android, Tizen, Unity3D}{}{}{}{}
+	
+	\section{Educational Background}
+		% \cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}  % arguments 3 to 6 can be left empty
+		\cventry{2011--2016}{Engineering studies in Computer Science}{Esprit}{Tunisia}{Mobile Information and Technology Specialist}{}
+		\cventry{2010--2011}{Studies in Computer Science}{University of bizerte}{Tunisia}{Specialization in Computer Science}{}
+		\cventry{2010}{Bachelor of Mathematics}{}{Tunisia}{}{}
+
+
+	
+	\section{Miscellaneous}
+		\subsection{Languages} % (fold)
+			\label{sub:languages}
+					\cvitemwithcomment{Arabic}{Native language}{}
+			\cvitemwithcomment{French}{Bilingual}{B2}
+			\cvitemwithcomment{English}{Professional practice}{B2}
+		% subsection languages (end)
+		\subsection{Other} % (fold)
+			\label{sub:other}
+			\cvitem{Hobbies}{Read Scientific articles/Books, Strength training exercises, Listen to music}
+			\cvitem{Participation in challenges}{ Movility, Orange Developper, DroidCon }
+			\cvitem{Member of associations}{ Sust, eRobot }
+			\cvitem{Other}{Driving license}
+		% subsection other (end)
+
+
+
+
+	% \section{Interests}
+	% 	\cvitem{hobby 1}{Description}
+	% 	\cvitem{hobby 2}{Description}
+	% 	\cvitem{hobby 3}{Description}
+
+	% \section{Extra 1}
+	% 	\cvlistitem{Item 1}
+	% 	\cvlistitem{Item 2}
+	% 	\cvlistitem{Item 3. This item is particularly long and therefore normally spans over several lines. Did you notice the indentation when the line wraps?}
+
+	% \section{Extra 2}
+	% 	\cvlistdoubleitem{Item 1}{Item 4}
+	% 	% \cvlistdoubleitem{Item 2}{Item 5\cite{book1}}
+	% 	\cvlistdoubleitem{Item 3}{Item 6. Like item 3 in the single column list before, this item is particularly long to wrap over several lines.}
+
+	% \section{References}
+	% 	\begin{cvcolumns}
+	% 	  \cvcolumn{Category 1}{\begin{itemize}\item Person 1\item Person 2\item Person 3\end{itemize}}
+	% 	  \cvcolumn{Category 2}{Amongst others:\begin{itemize}\item Person 1, and\item Person 2\end{itemize}(more upon request)}
+	% 	  \cvcolumn[0.5]{All the rest \& some more}{\textit{That} person, and \textbf{those} also (all available upon request).}
+	% 	\end{cvcolumns}
+
+	% Publications from a BibTeX file without multibib
+	%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+	%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+	% \nocite{*}
+	% \bibliographystyle{plain}
+	% \bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+	% Publications from a BibTeX file using the multibib package
+	%\section{Publications}
+	%\nocitebook{book1,book2}
+	%\bibliographystylebook{plain}
+	%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+	%\nocitemisc{misc1,misc2,misc3}
+	%\bibliographystylemisc{plain}
+	%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+
+	%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
+
+
+%% end of file `template.tex'.
